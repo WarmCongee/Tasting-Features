@@ -12,8 +12,6 @@ import java.lang.annotation.*;
 @Target({ElementType.TYPE,ElementType.METHOD})
 @Inherited
 @Documented
-public @interface MyAnnotatiion {
-    int type() default 0;
-    String level() default "info";
+public @interface Table {
     String value() default "";
 }
